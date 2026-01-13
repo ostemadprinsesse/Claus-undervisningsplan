@@ -23,7 +23,8 @@
 
 
 ## After Class
-* Group creation, and create a pull request with group info in  groups.py
+* Group creation, and create a pull request with group info in groups.py
+    * [create_a_pr_to_groups_py.md](create_a_pr_to_groups_py.md)
 
 
 
