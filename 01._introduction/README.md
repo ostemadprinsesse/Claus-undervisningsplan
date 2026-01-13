@@ -23,6 +23,7 @@
 
 [Awsome Recipe Cookbook](https://github.com/cookbookio/awsome_recipe_cookbook)
 
+[Claude Code](https://code.claude.com/docs/en/overview)
 
 ## After Class
 * Group creation, and create a pull request with group info in groups.py
