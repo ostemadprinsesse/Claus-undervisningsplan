@@ -19,7 +19,9 @@
 
 ## Todays Teachings
 
+![](iassets/möbius_strip.png)
 
+[Awsome Recipe Cookbook](https://github.com/cookbookio/awsome_recipe_cookbook)
 
 
 ## After Class
