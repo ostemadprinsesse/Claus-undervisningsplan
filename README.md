@@ -1,49 +1,51 @@
 ## IT-Arkitektur, Cloud, DevOps - ITA spring 2026
-## About the course
-
-## Mandatories
-
-## Exam
-
 
 ### Semester plan
 
 
 | #       |   Date   | Topics |
 |:-------:|:--------:|:-----|
-|    1    |27/01-26  | [Introduktion til ITArkitektur, Cloud og DevOps](01._introduction/README.md)|
-|    2    |30/01-26  | [Linux](02/README.md)          |
-|    3    |3/2-26    | [Linux II](03/README.md)              |
-|    4    |6/2-26    | [Eksamensprojekt & Source Code Archeology](04)     |
-|    5    |          | [Docker, devcontainers]()     |
-|    6    |          |      |
-|    7    |          |      |
-|    8    |          |      |
-|   9     |          |      |
-|   10    |          |      |
-|   11    |          |      |
-|   12    |          |      |
-|   13    |          |      |
-|   14    |          |      |
-|   15    |          |      |
-|   16    |          |      |
-|   17    |          |      |
-|   18    |          |      |
-|         |          | Påskeferie     |
-|         |          | Påskeferie         |
-|   19    |          |      |
-|   20    |          |      |
-|   21    |          |      |
-|   22    |          |      |
-|   23    |          |      |
-|   24    |          |      |
-|   25    |          |      |
-|   26    |          |      |
-|   27    |          |      |
-|   28    |          |      |
-|   29    |          |      |
-|   30    |          |      |
-|   31    |          |      |
-|   32    |          |      |
-|   33    |          |      |
-|   34    |          |      |
+|    1    |27/01-26  | [Introduction to IT-architechture, Cloud and DevOps](01._introduction/README.md)|
+|    2    |30/01-26  | [Exam project - Decide on a framework & convert code](02/README.md)          |
+|    3    |3/2-26    | [Linux](03/README.md)              |
+|    4    |6/2-26    | [Linux, windows and Mac](04)     |
+|    5    |10/2      | [CI - Git, branching strategies]()     |
+|    6    |13/2      | [CI - github actions]()     |
+|    7    |17/2      | [CI - code quality, linting, static code analysis]()     |
+|    8    |20/2      | [CI - Pull Requests, code reviews]()         |
+|   9     |24/2      | [DevOps - transperency, issues, github project]()    |
+|   10    |27/2      |      |
+|   11    |3/3       |      |
+|   12    |6/3       |      |
+|   13    |10/3      |      |
+|   14    |13/3      |      |
+|   15    |17/3      |      |
+|   16    |20/3      | CASE 1: Vibe-Hackaton |
+|   17    |24/3      | CASE 1: Vibe-Hackaton    |
+|   18    |27/3      | CASE 1: Vibe-Hackaton    |
+|         |          | Holiday |
+|         |          | Holiday |
+|   19    |7/4       |      |
+|   20    |10/4      |      |
+|   21    |14/4      |      |
+|   22    |17/4      |      |
+|   23    |21/4      |      |
+|   24    |24/4      |      |
+|   25    |28/4      |      |
+|   26    |1/5       |      |
+|   27    |5/5       |      |
+|   28    |8/5       |  CASE 2   |
+|   29    |12/5      | CASE 2     |
+|       |            | Holiday      |
+|   30    |19/5      | Exam Project Start up    |
+|   31    |22/5          |  Exam Project         |
+|   32    |26/5          |   Exam Project        |
+|   33    |29/5          |   Exam Project        |
+
+
+<!--
+## About the course
+
+## Exam
+
+-->
