@@ -6,8 +6,13 @@ __pycache__
 planleagning
 emner
 
+
+
+
 # Lektioner
 #00._course_material/
+00._course_material/00._Meta_Course_Material/exam_*
+00._course_material/00._Meta_Course_Material/about_the_exam.md
 #01._introduction/
 02._decide_framework_convert_code/
 03._linux/
