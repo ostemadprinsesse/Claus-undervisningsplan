@@ -15,11 +15,11 @@ It is very easy to create a [release in GitHub](https://docs.github.com/en/repos
 
 1. Click on `Create a new release` on the right side of your repository. This is also where you releases will be accessible.
 
-<img src="./github_release/github_release_1.png" alt="github release">
+<img src="./assets/github_release_1.png" alt="github release">
 
 2. First you must `+ Create new tag`. You are encouraged to use [semantic versioning](https://semver.org/) for tagging. `v.0.1.0` would be a good start.
 
-<img src="./github_release/github_release_2.png" alt="github release">
+<img src="./assets/github_release_2.png" alt="github release">
 
 
 3. Click on the “Generate release notes”. 
