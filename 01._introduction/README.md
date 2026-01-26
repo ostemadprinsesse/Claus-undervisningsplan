@@ -21,6 +21,8 @@
 
 ## Todays Teachings
 
+* [About the course](../00._course_material/00._Meta_Course_Material/about_the_course.md)
+
 ![](assets/devops_technologies.png)
 
 
