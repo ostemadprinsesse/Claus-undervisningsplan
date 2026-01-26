@@ -25,12 +25,19 @@
 
 [Awsome Recipe Cookbook](https://github.com/cookbookio/awsome_recipe_cookbook)
 
-
-* [AI CLI assistance](ai_cli_assistant.md)
+[AI CLI assistance](ai_cli_assistant.md)
 
 ## After Class
+* You should first start by finding a group. After this you can start working on the exercises beneath. 
+
+* Analyse your code
+    * [Create a dependency graph (Digraph) for the legacy system](create_a_dependency_graph.md)
+
 * Group creation, and create a pull request with group info in groups.py
     * [create_a_pr_to_groups_py.md](create_a_pr_to_groups_py.md)
+
+* Create a release of your project
+    * [Create a git release](git_release.md)
 
 
 
