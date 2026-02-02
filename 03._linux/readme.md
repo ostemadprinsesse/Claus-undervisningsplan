@@ -28,17 +28,38 @@ Se og følg tutorials i de tre videoer:
 * [HELP!! (for when you suck at Linux) // Linux for Hackers // EP3](https://www.youtube.com/watch?v=Y17KTiJLcyQ&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=3) (13:13)
 
 ## Today's Teachings
-Vi starter dagen med at kigge på OpennAPI specifikationerne fra sidst og ser hvor langt i er kommer med jeres applikationer.    
-Vi kigger også på jeres Kanban Board og snakker om hvordan i skal bruge den.  
 
+## Weekly DevOps Principle
+### The Principle og Flow 
+_(DevOps Handbook p. 54-61)_
+
+* Make your work visible
+* Limit Work in Process (WIP)
+* Reduce Batch size
+**Show your work!**
+
+## Status
+* Hvor langt er i kommet?
+* Jeg har registret 3 grupper, mangler fra 2
+    * [Den Danske Metode](https://github.com/DenDanskeMetode/legacyProject)
+    * [TheRizzlers](https://github.com/TheRizzlersOrg4Semester/Rizzlerpies)
+    * [LNS](https://github.com/Linus-nisse-segmentering/linus-kogebog)
+
+1. Framework kode, konvertering?
+2. Kanban?
+
+**Opgave**: Opdater groups.py med jeres stack informationer, og lav et PR. 
+
+OpennAPI specifikationerne fra sidst i forhold til Legacy projektet. 
+
+* [OpenAPI](../02._decide_framework_convert_code/03._openapi.md)
+* [api-schema.yaml](../02._decide_framework_convert_code/api-schema.yaml)
+* [Awesome Recipe Cookbook](https://github.com/cookbookio/awsome_recipe_cookbook/tree/openapi) 
+
+## Linux
 Efter dette arbejder vi med Linux resten af dagen og på fredag.       
 
-I skal have installeret Linux så i kan arbejde med operativsystemet.
-
-Det gør i ved at køre denne docker kommando i jeres terminal. (Terminal til Mac, Powershell til Windown)
-
-
-Herefter kommer i til at arbejde  med systemet og i kommer blandt andet igennem at bruge disse kommandoer: [Linux terminal commands and file system](unix_commands.md)
+* [Linux terminal commands and file system](unix_commands.md)
 
 ## After Class
 
@@ -46,8 +67,13 @@ Lav øvelserne: 
 
 * Øvelse: [Unix Command Exercises](unix_commands_exercises.md)
 * Øvelse: Kør din gruppes CookBook applikation på din linux computer
-    * Du kan køre docker containere på din Linux installation, da den allere kører i et docker image. 
+    * Du kan **ikke** køre docker containere i din Linux installation, da den allerede kører i en docker container. 
     * Men du kan godt køre din applikation lokalt på denne installation, så bare hop ud i det.
- 
+    * Lav en ændring i din kode (brug nano)
+    * Push til github
+* Øvelse: Stadig fra din linux maskine og stadig kun gennem terminalen
+    * Tilføj en ny linje i jeres gruppes dictionary i groups.py filen med Key, value som dette: "linux": True
+    * Lav et commit og push til jeres gruppes repository. (i kan godt alle gøre dette)
+    * Stadig fra terminalen; lav et PR til "EK_ITA_Agil_Cloud_Ita_2026_Spring" (Hint: `gh`)
 Hvis du skulle blive færdig før timen er overstået skal du blive ved med at lege med systemet indtil du rammer en time!
 
