@@ -5,10 +5,10 @@
 
 | #       |   Date   | Topics |
 |:-------:|:--------:|:-----|
-|    1    |27/01-26  | [Introduction to IT-architechture, Cloud and DevOps](01._introduction/README.md)|
-|    2    |30/01-26  | [Exam project - Decide on a framework & convert code](02._decide_framework_convert_code/README.md)          |
-|    3    |3/2-26    | [Linux](03/README.md)              |
-|    4    |6/2-26    | [Linux, windows and Mac](04)     |
+|    1    |27/01     | [Introduction to IT-architechture, Cloud and DevOps](01._introduction/README.md)|
+|    2    |30/01     | [Exam project - Decide on a framework & convert code](02._decide_framework_convert_code/README.md)          |
+|    3    |3/2       | [Linux Crash Course](03._linux/readme.md)              |
+|    4    |6/2       | [Linux, windows and Mac](04)     |
 |    5    |10/2      | [CI - Git, branching strategies]()     |
 |    6    |13/2      | [CI - github actions]()     |
 |    7    |17/2      | [CI - code quality, linting, static code analysis]()     |
@@ -40,6 +40,10 @@
 |   31    |22/5          |  Exam Project         |
 |   32    |26/5          |   Exam Project        |
 |   33    |29/5          |   Exam Project        |
+
+
+TEST TEST
+
 
 
 <!--

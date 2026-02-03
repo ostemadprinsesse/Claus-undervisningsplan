@@ -1,15 +1,5 @@
 GROUP_REPOS = [
         {
-            "name": "BalladeBaderne",
-            "gitLinks": ["https://github.com/organizations/Knights-of-the-roundabout/settings/profile"],
-            "backend": "",
-            "frontend": "",
-            "monitoring": "",
-            "stack": ["Node.js","React"],
-            "documentation": [],
-            "members": ["Magnus Giemsa", "Laurits Munk", "Elias Garcia", "Andreas Brandenborg", "Jacob Bisgård"],
-        },
-        {
             "name": "DenDanskeMetode",
             "gitLinks": ["https://github.com/DenDanskeMetode/legacyProject"],
             "backend": "",
@@ -18,5 +8,46 @@ GROUP_REPOS = [
             "stack": [],
             "documentation": [],
             "members": ["Felix Llambias", "Nicholas Ladik", "Christian Skovgaard", "Victor Lotz"],
-         },
+        },
+                {
+            "name": "TheRizzlers",
+            "gitLinks": ["https://github.com/TheRizzlersOrg4Semester/Rizzlerpies.git"],
+            "backend": "",
+            "frontend": "",
+            "monitoring": "",
+            "stack": [],
+            "documentation": ["https://github.com/TheRizzlersOrg4Semester/Rizzlerpies/blob/main/README.md"],
+            "members": ["Mike", "Johan", "Esben", "Mathias"],
+        },
+                {
+            "name": "LNS",
+            "gitLinks": ["https://github.com/Linus-nisse-segmentering/linus-kogebog"],
+            "backend": "",
+            "frontend": "",
+            "monitoring": "",
+            "stack": [],
+            "documentation": [],
+            "members": ["Lukas", "Nixhajete", "Sahra"],
+        },
+        
+                {
+            "name": "Ostemadprissse",
+            "gitLinks": ["https://github.com/ostemadprinsesse/Dinner-served-and-ate"],
+            "backend": "",
+            "frontend": "",
+            "monitoring": "",
+            "stack": [],
+            "documentation": [],
+            "members": ["Linea", "Jonas", "Føen (Faprao)", "Nikoleta"],
+        },
+  {
+            "name": "BalladeBaderne",
+            "gitLinks": ["https://github.com/Balladebaderne/legacy-project"],
+            "backend": "SQL",
+            "frontend": "React",
+            "monitoring": "",
+            "stack": ["Node.js","React"],
+            "documentation": ["https://github.com/Balladebaderne/legacy-project/blob/master/README.md"],
+            "members": ["Magnus Giemsa", "Laurits Munk", "Elias Garcia", "Andreas Brandenborg", "Jacob Bisgård"],
+        }
 ]
