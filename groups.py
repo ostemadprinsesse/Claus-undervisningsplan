@@ -31,8 +31,8 @@ GROUP_REPOS = [
         },
         
                 {
-            "name": "OSteprissse?",
-            "gitLinks": ["https://github.com/Linus-nisse-segmentering/linus-kogebog"],
+            "name": "Ostemadprissse",
+            "gitLinks": ["https://github.com/ostemadprinsesse/Dinner-served-and-ate"],
             "backend": "",
             "frontend": "",
             "monitoring": "",
