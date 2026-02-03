@@ -36,7 +36,7 @@ GROUP_REPOS = [
             "backend": "",
             "frontend": "",
             "monitoring": "",
-            "stack": [],
+            "stack": ["JavaScript, React, Node.js"],
             "documentation": [],
             "members": ["Linea", "Jonas", "Føen (Faprao)", "Nikoleta"],
         },
