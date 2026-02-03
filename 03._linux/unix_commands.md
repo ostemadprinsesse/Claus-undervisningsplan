@@ -123,8 +123,8 @@ Et linux OS vil som udgangspunkt indeholde disse mapper i rod mappen.
 ````
 	sudo                    # put sudo in front of command to have admin rights (ei. sudo rm -r <foldername>)    
 				# on your linux installation your user has:
-	# username: clbo
-	# password: clbo
+	# username: abc
+	# password: 1234
 ````
 
 **Update / upgrade linux**    

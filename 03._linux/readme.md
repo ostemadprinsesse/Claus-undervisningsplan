@@ -72,6 +72,16 @@ Efter dette arbejder vi med Linux resten af dagen og på fredag.
 
 * [Linux terminal commands and file system](unix_commands.md)
 
+**Opgave**: 
+    * Gå til jeres "Documents" folder
+    * lav en ny mappe og kald den "DevOps"
+    * i denne mappe lave en txt fil med navnet "show_your_work.txt"
+    * i samme mappe lav en markdownfil med navnet "WIP.md"
+    * i samme mappe lav en imagefile  med navnet "cat_on_a_roof_top.png"
+    * gå tilbage i Documents mapppen og copy DevOps mappen til Documents mappens "parrent" (Home)
+    * gå til denne nye mappe og slet png filen
+    * slet hele DevOps mappen i documents mappen
+
 ## After Class
 
 Lav øvelserne: 
