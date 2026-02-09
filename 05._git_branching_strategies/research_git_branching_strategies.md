@@ -53,7 +53,7 @@ Really nice visuals to explain Git Merge vs. Rebase:
 From the video:
 
 <div>
-    <img src="./assets_research_git_branching_strategies/git_merge_vs_rebase_vs_squash_commit_pros_cons.png" alt="Git merging vs. rebasing the great debate"/>
+    <img src="./assets/git_merge_vs_rebase_vs_squash_commit_pros_cons.png" alt="Git merging vs. rebasing the great debate"/>
 </div>
 
 
