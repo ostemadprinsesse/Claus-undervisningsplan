@@ -31,7 +31,7 @@ We start out by all groups show their work so far.
 * Avoid long-lived branches.
 
 
-* [Black board demo - Git Cheatsheet](git_cheatcheet.md)
+- [Black board demo - Git Cheatsheet](git_cheatcheet.md)
 
 
 
