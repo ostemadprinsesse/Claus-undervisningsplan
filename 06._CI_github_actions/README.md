@@ -20,4 +20,5 @@
 
 ## After Class
 
-* [yaml-exercise.html](/exercises/yaml-exercise.html)
+* [Practice yaml](practice_yaml.md)
+
