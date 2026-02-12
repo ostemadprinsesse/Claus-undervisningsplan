@@ -12,6 +12,14 @@
 
 ## Todays Teachings
 
+* [GitHub actions](02._github_actions.md)
+* [GitHub issues workflow](03._github_issues_workflow.md)
+* [GitHub secrets](04._github_secrets.md)
+
+
+
+
+
 <!--
 * [Introduction to GitHub Actions](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/)
 -->
