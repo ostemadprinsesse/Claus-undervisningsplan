@@ -1,0 +1,24 @@
+# Github Actions
+
+
+## learning Goals
+
+## Before Class
+
+* [Refresh YAML](refresh_yaml_syntax.md)
+* [Read about github actions](read_about_github_actions.md)
+
+
+
+## Todays Teachings
+
+<!--
+* [understanding github actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+* [Introduction to GitHub Actions](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/)
+-->
+
+
+
+## After Class
+
+

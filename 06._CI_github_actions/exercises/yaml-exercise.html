@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to YAML Conversion Exercise</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            padding: 20px;
+            background: #1e1e1e;
+            color: #d4d4d4;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #4ec9b0;
+            font-size: 28px;
+        }
+        
+        .instructions {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #9cdcfe;
+            font-size: 14px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .exercise {
+            margin-bottom: 40px;
+            background: #252526;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .exercise-header {
+            background: #2d2d30;
+            padding: 15px 20px;
+            border-bottom: 2px solid #007acc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .exercise-title {
+            font-weight: bold;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        
+        .difficulty {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .easy { background: #4ec9b0; color: #000; }
+        .medium { background: #ce9178; color: #000; }
+        .hard { background: #f48771; color: #000; }
+        
+        .exercise-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .panel {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .panel-label {
+            color: #9cdcfe;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .code-display {
+            background: #1e1e1e;
+            padding: 15px;
+            border-radius: 4px;
+            border: 1px solid #3e3e42;
+            font-size: 13px;
+            overflow-x: auto;
+        }
+        
+        textarea {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            padding: 15px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 13px;
+            resize: vertical;
+            min-height: 200px;
+            flex: 1;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #007acc;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        
+        .check-btn {
+            background: #007acc;
+            color: white;
+            flex: 1;
+        }
+        
+        .check-btn:hover {
+            background: #005a9e;
+        }
+        
+        .show-btn {
+            background: #3e3e42;
+            color: white;
+            flex: 1;
+        }
+        
+        .show-btn:hover {
+            background: #505052;
+        }
+        
+        .reset-btn {
+            background: #5a5a5a;
+            color: white;
+        }
+        
+        .reset-btn:hover {
+            background: #6a6a6a;
+        }
+        
+        .feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 4px;
+            display: none;
+            font-size: 14px;
+        }
+        
+        .feedback.success {
+            background: rgba(78, 201, 176, 0.2);
+            border: 1px solid #4ec9b0;
+            color: #4ec9b0;
+            display: block;
+        }
+        
+        .feedback.error {
+            background: rgba(244, 135, 113, 0.2);
+            border: 1px solid #f48771;
+            color: #f48771;
+            display: block;
+        }
+        
+        .hint {
+            background: rgba(156, 220, 254, 0.1);
+            border: 1px solid #9cdcfe;
+            color: #9cdcfe;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        
+        .json .key { color: #9cdcfe; }
+        .json .string { color: #ce9178; }
+        .json .number { color: #b5cea8; }
+        .json .boolean { color: #569cd6; }
+        .json .bracket { color: #ffd700; }
+        
+        @media (max-width: 968px) {
+            .exercise-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON to YAML Conversion Exercise</h1>
+    <p class="instructions">Convert the JSON on the left to YAML format. Click "Check Answer" to verify your solution!</p>
+    
+    <div class="container">
+        <!-- Exercise 1 -->
+        <div class="exercise" data-exercise="1">
+            <div class="exercise-header">
+                <span class="exercise-title">Exercise 1: Simple Object</span>
+                <span class="difficulty easy">EASY</span>
+            </div>
+            <div class="exercise-content">
+                <div class="panel">
+                    <div class="panel-label">JSON Input:</div>
+                    <div class="code-display json">
+<pre>{
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}</pre>
+                    </div>
+                    <div class="hint">💡 Remember: YAML uses indentation (2 spaces) and no quotes are needed for simple strings</div>
+                </div>
+                <div class="panel">
+                    <div class="panel-label">Your YAML Output:</div>
+                    <textarea class="yaml-input" placeholder="Type your YAML here..."></textarea>
+                    <div class="button-group">
+                        <button class="check-btn">Check Answer</button>
+                        <button class="show-btn">Show Solution</button>
+                        <button class="reset-btn">Reset</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exercise 2 -->
+        <div class="exercise" data-exercise="2">
+            <div class="exercise-header">
+                <span class="exercise-title">Exercise 2: Object with Array</span>
+                <span class="difficulty easy">EASY</span>
+            </div>
+            <div class="exercise-content">
+                <div class="panel">
+                    <div class="panel-label">JSON Input:</div>
+                    <div class="code-display json">
+<pre>{
+  "name": "Pizza Margherita",
+  "ingredients": ["tomato", "mozzarella", "basil"],
+  "cookTime": 15
+}</pre>
+                    </div>
+                    <div class="hint">💡 Arrays in YAML use hyphens (-) with proper indentation</div>
+                </div>
+                <div class="panel">
+                    <div class="panel-label">Your YAML Output:</div>
+                    <textarea class="yaml-input" placeholder="Type your YAML here..."></textarea>
+                    <div class="button-group">
+                        <button class="check-btn">Check Answer</button>
+                        <button class="show-btn">Show Solution</button>
+                        <button class="reset-btn">Reset</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exercise 3 -->
+        <div class="exercise" data-exercise="3">
+            <div class="exercise-header">
+                <span class="exercise-title">Exercise 3: Nested Objects</span>
+                <span class="difficulty medium">MEDIUM</span>
+            </div>
+            <div class="exercise-content">
+                <div class="panel">
+                    <div class="panel-label">JSON Input:</div>
+                    <div class="code-display json">
+<pre>{
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "ssl": true
+  },
+  "database": {
+    "name": "mydb",
+    "user": "admin"
+  }
+}</pre>
+                    </div>
+                    <div class="hint">💡 Nested objects need additional indentation levels (2 spaces per level)</div>
+                </div>
+                <div class="panel">
+                    <div class="panel-label">Your YAML Output:</div>
+                    <textarea class="yaml-input" placeholder="Type your YAML here..."></textarea>
+                    <div class="button-group">
+                        <button class="check-btn">Check Answer</button>
+                        <button class="show-btn">Show Solution</button>
+                        <button class="reset-btn">Reset</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exercise 4 -->
+        <div class="exercise" data-exercise="4">
+            <div class="exercise-header">
+                <span class="exercise-title">Exercise 4: Array of Objects</span>
+                <span class="difficulty hard">HARD</span>
+            </div>
+            <div class="exercise-content">
+                <div class="panel">
+                    <div class="panel-label">JSON Input:</div>
+                    <div class="code-display json">
+<pre>{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "active": false
+    }
+  ]
+}</pre>
+                    </div>
+                    <div class="hint">💡 Each object in the array starts with a hyphen, then the object properties are indented further</div>
+                </div>
+                <div class="panel">
+                    <div class="panel-label">Your YAML Output:</div>
+                    <textarea class="yaml-input" placeholder="Type your YAML here..."></textarea>
+                    <div class="button-group">
+                        <button class="check-btn">Check Answer</button>
+                        <button class="show-btn">Show Solution</button>
+                        <button class="reset-btn">Reset</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exercise 5 -->
+        <div class="exercise" data-exercise="5">
+            <div class="exercise-header">
+                <span class="exercise-title">Exercise 5: Complex OpenAPI Path</span>
+                <span class="difficulty hard">HARD</span>
+            </div>
+            <div class="exercise-content">
+                <div class="panel">
+                    <div class="panel-label">JSON Input:</div>
+                    <div class="code-display json">
+<pre>{
+  "paths": {
+    "/api/users": {
+      "get": {
+        "operationId": "listUsers",
+        "tags": ["users", "api"],
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}</pre>
+                    </div>
+                    <div class="hint">💡 Watch your indentation carefully - each nesting level adds 2 spaces</div>
+                </div>
+                <div class="panel">
+                    <div class="panel-label">Your YAML Output:</div>
+                    <textarea class="yaml-input" placeholder="Type your YAML here..."></textarea>
+                    <div class="button-group">
+                        <button class="check-btn">Check Answer</button>
+                        <button class="show-btn">Show Solution</button>
+                        <button class="reset-btn">Reset</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const solutions = {
+            1: `name: John
+age: 30
+city: New York`,
+            2: `name: Pizza Margherita
+ingredients:
+  - tomato
+  - mozzarella
+  - basil
+cookTime: 15`,
+            3: `server:
+  host: localhost
+  port: 8080
+  ssl: true
+database:
+  name: mydb
+  user: admin`,
+            4: `users:
+  - id: 1
+    name: Alice
+    active: true
+  - id: 2
+    name: Bob
+    active: false`,
+            5: `paths:
+  /api/users:
+    get:
+      operationId: listUsers
+      tags:
+        - users
+        - api
+      parameters:
+        - name: limit
+          in: query
+          required: false
+      responses:
+        '200':
+          description: Success`
+        };
+
+        // Normalize whitespace for comparison
+        function normalize(str) {
+            return str
+                .trim()
+                .split('\n')
+                .map(line => line.trimEnd())
+                .join('\n');
+        }
+
+        // Setup event listeners for each exercise
+        document.querySelectorAll('.exercise').forEach(exercise => {
+            const exerciseNum = exercise.dataset.exercise;
+            const textarea = exercise.querySelector('.yaml-input');
+            const checkBtn = exercise.querySelector('.check-btn');
+            const showBtn = exercise.querySelector('.show-btn');
+            const resetBtn = exercise.querySelector('.reset-btn');
+            const feedback = exercise.querySelector('.feedback');
+
+            checkBtn.addEventListener('click', () => {
+                const userAnswer = normalize(textarea.value);
+                const correctAnswer = normalize(solutions[exerciseNum]);
+                
+                if (userAnswer === correctAnswer) {
+                    feedback.className = 'feedback success';
+                    feedback.textContent = '✓ Correct! Well done!';
+                } else {
+                    feedback.className = 'feedback error';
+                    feedback.textContent = '✗ Not quite right. Check your indentation and syntax. Try again!';
+                }
+            });
+
+            showBtn.addEventListener('click', () => {
+                textarea.value = solutions[exerciseNum];
+                feedback.className = 'feedback';
+                feedback.style.display = 'none';
+            });
+
+            resetBtn.addEventListener('click', () => {
+                textarea.value = '';
+                feedback.className = 'feedback';
+                feedback.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
