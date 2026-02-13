@@ -26,7 +26,7 @@
 ## After Class
 
 * [Practice yaml](exercises/practice_yaml.md)
-* [GitHub pr template](github_pr_template.md)
-* [github issue template](github_issue_template.md)
-* [define github secrets](define_github_secrets.md)
-* [branch protection rules](branch_protection_rules.md)
+* [GitHub pr template](exercises/github_pr_template.md)
+* [github issue template](exercises/github_issue_template.md)
+* [define github secrets](exercises/define_github_secrets.md)
+* [branch protection rules](exercises/branch_protection_rules.md)
