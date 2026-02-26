@@ -9,6 +9,7 @@ After today, when this setup is ready, we can start focusing on code quality, us
 
 ## Learning Goals
 * Explain what Continuous Delivery (CD) is.
+* 
 * Be able to write and understand a workflow file.
 
 ## Before Class
@@ -37,5 +38,15 @@ All groups show their work so far.
 
 ## After Class
 
+### Tutorials
+* [01._Overview](exercises/01._Overview.md)
+* [02._Generating_CR_PAT](exercises/02._Generating_CR_PAT.md)
+* [03._CLI_Example](exercises/03._CLI_Example.md)
+* [04._Workflow_File](exercses/04._Workflow_File.md)
+* [05._Environment_Variables](exercises/05._Environment_Variables.md) 
+
+---
+
+### Exercises
 * [Investigate your favorite repo](exercises/favorite_repo.md)
 * [Create your workflow](exercises/create_your_workflow.md)
