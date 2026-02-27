@@ -3,6 +3,8 @@ Todays focus will be on setting up the Ci/CD pipeline for your CookBook applicat
 
 ![cicd](assets/cicd.png)
 
+![cicd_8](../01._introduction/assets/devops_technologies.png)
+
 The main thing we are missing in this context is to create instructions for GitHub Actions. 
 
 After today, when this setup is ready, we can start focusing on code quality, using tests and linting and code reviews. 
