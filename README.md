@@ -15,8 +15,8 @@
 |    8    |20/2      | [Azure - Cloud II](07._Azure_vm_portal_az/README.md)|
 |   9     |24/2      | [Continous delivery](09._Continous_delivery/README.md)|
 |   10    |27/2      | [Continous delivery](09._Continous_delivery/README.md)|
-|   11    |3/3       | [Groups - Getting ready for presentation]() - No Teachings in class |
-|   12    |6/3       | [Presentation]()                |
+|   11    |3/3       | No Teachings in class - [Groups - Getting ready for presentation](10._groupwork/readme.md)|
+|   12    |6/3       | [Presentation](11._presentation_of_project/README.md)                |
 |   13    |10/3      |      |
 |   14    |13/3      |      |
 |   15    |17/3      |      |
