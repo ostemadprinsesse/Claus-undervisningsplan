@@ -5,18 +5,18 @@
 
 | #       |   Date   | Topics |
 |:-------:|:--------:|:-----|
-|    1    |27/01-26  | [Introduction to IT-architechture, Cloud and DevOps](01._introduction/README.md)|
-|    2    |30/01-26  | [Exam project - Decide on a framework & convert code](02._decide_framework_convert_code/README.md)          |
-|    3    |3/2-26    | [Linux](03/README.md)              |
-|    4    |6/2-26    | [Linux, windows and Mac](04)     |
-|    5    |10/2      | [CI - Git, branching strategies]()     |
-|    6    |13/2      | [CI - github actions]()     |
-|    7    |17/2      | [CI - code quality, linting, static code analysis]()     |
-|    8    |20/2      | [CI - Pull Requests, code reviews]()         |
-|   9     |24/2      | [DevOps - transperency, issues, github project]()    |
-|   10    |27/2      |      |
-|   11    |3/3       |      |
-|   12    |6/3       |      |
+|    1    |27/01     | [Introduction to IT-architechture, Cloud and DevOps](01._introduction/README.md)|
+|    2    |30/01     | [Exam project - Decide on a framework & convert code](02._decide_framework_convert_code/README.md)          |
+|    3    |3/2       | [Linux Crash Course](03._linux/readme.md)              |
+|    4    |6/2       | [Linux, windows and Mac](04._linux_win_mac/README.md)     |
+|    5    |10/2      | [CI - Git, branching strategies](05._git_branching_strategies/README.md)     |
+|    6    |13/2      | [CI - github actions](06._CI_github_actions/README.md)     |
+|    7    |17/2      | [Azure - Cloud](07._Azure_vm_portal_az/README.md)|
+|    8    |20/2      | [Azure - Cloud II](07._Azure_vm_portal_az/README.md)|
+|   9     |24/2      | [Continous delivery](09._Continous_delivery/README.md)|
+|   10    |27/2      | [Continous delivery](09._Continous_delivery/README.md)|
+|   11    |3/3       | [Groups - Getting ready for presentation]() - No Teachings in class |
+|   12    |6/3       | [Presentation]()                |
 |   13    |10/3      |      |
 |   14    |13/3      |      |
 |   15    |17/3      |      |
@@ -37,9 +37,10 @@
 |   29    |12/5      | CASE 2     |
 |       |            | Holiday      |
 |   30    |19/5      | Exam Project Start up    |
-|   31    |22/5          |  Exam Project         |
-|   32    |26/5          |   Exam Project        |
-|   33    |29/5          |   Exam Project        |
+|   31    |22/5      |  Exam Project         |
+|   32    |26/5      |   Exam Project        |
+|   33    |29/5      |   Exam Project        |
+
 
 
 <!--

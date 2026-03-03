@@ -8,5 +8,47 @@ GROUP_REPOS = [
             "stack": ["Go", "SQLite", "GHCR"],
             "documentation": ["http://131.163.89.207/swagger"],
             "members": ["Felix Llambias", "Nicholas Ladik", "Christian Skovgaard", "Victor Lotz"],
+            "linux":True
         },
+                {
+            "name": "TheRizzlers",
+            "gitLinks": ["https://github.com/TheRizzlersOrg4Semester/Rizzlerpies.git"],
+            "backend": "http://20.251.202.47:4000/api/",
+            "frontend": "http://20.251.202.47:4000",
+            "monitoring": "",
+            "stack": ["Node", "Express", "SSR (EJS)"],
+            "documentation": ["http://20.251.202.47:4000/apidocs/"],
+            "members": ["Mike", "Johan", "Esben", "Mathias"],
+        },
+                {
+            "name": "LNS",
+            "gitLinks": ["https://github.com/Linus-nisse-segmentering/Agile-Linus"],
+            "backend": "",
+            "frontend": "",
+            "monitoring": "",
+            "stack": ["ruby","sinatra","rack/rackup", "puma", "ERB", "SQlite3", "HTML", "CSS"],
+            "documentation": [],
+            "members": ["Lukas", "Nixhajete", "Sahra"],
+        },
+        
+                {
+            "name": "Ostemadprissse",
+            "gitLinks": ["https://github.com/ostemadprinsesse/Dinner-served-and-ate"],
+            "backend": "",
+            "frontend": "",
+            "monitoring": "",
+            "stack": ["JavaScript, React, Node.js"],
+            "documentation": [],
+            "members": ["Linea", "Jonas", "Føen (Faprao)", "Nikoleta"],
+        },
+  {
+            "name": "BalladeBaderne",
+            "gitLinks": ["https://github.com/Balladebaderne/cookbook"],
+            "backend": "SQL",
+            "frontend": "React",
+            "monitoring": "",
+            "stack": ["Node.js","React"],
+            "documentation": ["https://github.com/Balladebaderne/cookbook/blob/master/README.md"],
+            "members": ["Magnus Giemsa", "Laurits Munk", "Elias Garcia", "Andreas Brandenborg", "Jacob Bisgård"],
+        }
 ]
