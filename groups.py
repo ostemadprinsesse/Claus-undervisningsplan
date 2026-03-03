@@ -38,7 +38,7 @@ GROUP_REPOS = [
             "frontend": "",
             "monitoring": "",
             "stack": ["JavaScript, React, Node.js"],
-            "documentation": [],
+            "documentation": [https://github.com/ostemadprinsesse/Dinner-served-and-ate/blob/main/README.md],
             "members": ["Linea", "Jonas", "Føen (Faprao)", "Nikoleta"],
         },
   {
