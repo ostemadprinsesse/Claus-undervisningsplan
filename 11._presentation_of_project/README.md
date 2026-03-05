@@ -11,11 +11,17 @@ It is also important that everybody in your group takes ownership of your projec
 
 ## Todays Teachings
 
+Today we have focus on your presentations.    
+You will get some more time to talk about your projekt than the previous presentations.     
+Lets try to give each group 15 minutes.    
+
 * [DenDanskeMetode](https://github.com/DenDanskeMetode/legacyProject) 
 * [TheRizzlers](https://github.com/TheRizzlersOrg4Semester/Rizzlerpies) 
 * [LNS](https://github.com/Linus-nisse-segmentering/Agile-Linus) 
 * [Ostemadprissse](https://github.com/ostemadprinsesse/Dinner-served-and-ate) 
 * [BalladeBaderne](https://github.com/Balladebaderne/cookbook) 
+
+The rest of the day there will be group work and individuelt feedback.      
 
 ## After Class
 
