@@ -5,7 +5,7 @@ GROUP_REPOS = [
             "backend": "http://131.163.89.207/api",
             "frontend": "http://131.163.89.207/",
             "monitoring": "",
-            "stack": [],
+            "stack": ["Go", "SQLite", "GHCR"],
             "documentation": ["http://131.163.89.207/swagger"],
             "members": ["Felix Llambias", "Nicholas Ladik", "Christian Skovgaard", "Victor Lotz"],
             "linux":True
@@ -41,14 +41,14 @@ GROUP_REPOS = [
             "documentation": [],
             "members": ["Linea", "Jonas", "Føen (Faprao)", "Nikoleta"],
         },
-  {
+                {
             "name": "BalladeBaderne",
             "gitLinks": ["https://github.com/Balladebaderne/cookbook"],
-            "backend": "SQL",
-            "frontend": "React",
+            "backend": "http://172.189.59.40/api",
+            "frontend": "http://172.189.59.40",
             "monitoring": "",
-            "stack": ["Node.js","React"],
-            "documentation": ["https://github.com/Balladebaderne/cookbook/blob/master/README.md"],
-            "members": ["Magnus Giemsa", "Laurits Munk", "Elias Garcia", "Andreas Brandenborg", "Jacob Bisgård"],
-        }
+            "stack": ["Node.js", "Express", "React", "SQLite", "Docker", "Nginx", "Azure VM"],
+            "documentation": ["http://172.189.59.40/apidocs/"],
+            "members": ["Magnus Giemsa", "Laurits Munk", "Elias Garcia", "Andreas Brandenborg", "Jacob Bisgaard"],
+        },
 ]
