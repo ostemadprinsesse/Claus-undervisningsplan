@@ -2,22 +2,22 @@ GROUP_REPOS = [
         {
             "name": "DenDanskeMetode",
             "gitLinks": ["https://github.com/DenDanskeMetode/legacyProject"],
-            "backend": "",
-            "frontend": "",
+            "backend": "http://131.163.89.207/api",
+            "frontend": "http://131.163.89.207/",
             "monitoring": "",
-            "stack": ["Golang","SQLite3","Docker"],
-            "documentation": [],
+            "stack": ["Go", "SQLite", "GHCR"],
+            "documentation": ["http://131.163.89.207/swagger"],
             "members": ["Felix Llambias", "Nicholas Ladik", "Christian Skovgaard", "Victor Lotz"],
             "linux":True
         },
                 {
             "name": "TheRizzlers",
             "gitLinks": ["https://github.com/TheRizzlersOrg4Semester/Rizzlerpies.git"],
-            "backend": "",
-            "frontend": "",
+            "backend": "http://20.251.202.47:4000/api/",
+            "frontend": "http://20.251.202.47:4000",
             "monitoring": "",
             "stack": ["Node", "Express", "SSR (EJS)"],
-            "documentation": ["https://github.com/TheRizzlersOrg4Semester/Rizzlerpies/blob/main/README.md"],
+            "documentation": ["http://20.251.202.47:4000/apidocs/"],
             "members": ["Mike", "Johan", "Esben", "Mathias"],
         },
                 {
@@ -41,14 +41,14 @@ GROUP_REPOS = [
             "documentation": [https://github.com/ostemadprinsesse/Dinner-served-and-ate/blob/main/README.md],
             "members": ["Linea", "Jonas", "Føen (Faprao)", "Nikoleta"],
         },
-  {
+                {
             "name": "BalladeBaderne",
             "gitLinks": ["https://github.com/Balladebaderne/cookbook"],
-            "backend": "SQL",
-            "frontend": "React",
+            "backend": "http://172.189.59.40/api",
+            "frontend": "http://172.189.59.40",
             "monitoring": "",
-            "stack": ["Node.js","React"],
-            "documentation": ["https://github.com/Balladebaderne/cookbook/blob/master/README.md"],
-            "members": ["Magnus Giemsa", "Laurits Munk", "Elias Garcia", "Andreas Brandenborg", "Jacob Bisgård"],
-        }
+            "stack": ["Node.js", "Express", "React", "SQLite", "Docker", "Nginx", "Azure VM"],
+            "documentation": ["http://172.189.59.40/apidocs/"],
+            "members": ["Magnus Giemsa", "Laurits Munk", "Elias Garcia", "Andreas Brandenborg", "Jacob Bisgaard"],
+        },
 ]
