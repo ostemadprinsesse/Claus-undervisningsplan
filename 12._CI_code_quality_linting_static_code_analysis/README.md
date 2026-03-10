@@ -2,6 +2,9 @@
 
 Today we you should focus on software quality, and on using tools both locally and in your CI workflow on github. 
 
+## Learning Goals
+
+
 ## Before Class
 
 ## Todays Teachings
