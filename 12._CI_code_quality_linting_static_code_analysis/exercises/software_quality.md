@@ -3,9 +3,6 @@
 Add maintainability and technical debt estimation tools to your projects and fix the most prominent issues.
 
 **Type**: Group work
-
-**Deadline**: Same as Mandatory II. Even though software quality is important, you can add this task to your kanban and do it later if you are swamped with higher priority tasks.
-
 **Motivation**: Improve code quality and avoid technical debt.
 
 ---
@@ -63,8 +60,6 @@ https://www.coderabbit.ai/
 2. Authorize deepsource.io and follow the instructions to set it up.
 
 ---
-
-## Requirement for Mandatory II
 
 After you have setup a these code quality tools and gone through the issues, your group should create a brief document that answers the following questions:
 

@@ -6,10 +6,11 @@ Today we you should focus on software quality, and on using tools both locally a
 
 ## Todays Teachings
 
-* [Software quality](02._software_quality.md)
-* [Linting](04._linting.md)
+<!-- * [Software quality](02._software_quality.md) --> 
 
+* [Linting](04._linting.md)
 * [Code from teachings](https://github.com/cookbookio/awsome_recipe_cookbook/tree/linting)
+
 <!--
 * [MyPy](https://mypy-lang.org/)
 * [Flake-8](https://flake8.pycqa.org/en/latest/)
