@@ -24,7 +24,10 @@ We will demo the process of creating a VM, updating it, installing docker on it,
 ### Git Hooks
 Last time we looked at adding linters to our [workflow on GitHub](https://github.com/cookbookio/awsome_recipe_cookbook/blob/linting/.github/workflows/linting.yml). Today we try to automatically lint or code before it is commited. This we do by using Git Hooks.
 
-For Javascript a Linter is `standard`. The rules that the linter follows is described here: 
-* [JavaScript Standard Style](https://github.com/standard/standard/blob/master/RULES.md)
+* [GitHooks](tutorial_githooks.md)
+* [Precommit](tutorial_precommit.md)
+
 
 ## After Class
+For the one of you using Javascript you can have a look at these tools: 
+* [Javascript - Husky, LintStaged](husky_lint_staged.md)
