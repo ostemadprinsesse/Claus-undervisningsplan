@@ -12,16 +12,19 @@ Have a look at these files:
 
 * [Infrastructure](https://github.com/cookbookio/awsome_recipe_cookbook/tree/linting/infrastructure)
 
+Skim them and think about what are the scripts in the file(s) doing and what steps are described in the files.
 Its not new stuff, but it is good to have a second look at it. 
-
-We will cover it in class, so just have a look at it for the sake of overview.
-
-
 
 ## Today's Teachings
 
+We will demo the process of creating a VM, updating it, installing docker on it, running a workflow on GitHub and looking at our deployed site. Then we will destroy it all and do it again, and again, and again.
+
 * [Infrastructure](https://github.com/cookbookio/awsome_recipe_cookbook/tree/linting/infrastructure)
 
+### Git Hooks
+Last time we looked at adding linters to our [workflow on GitHub](https://github.com/cookbookio/awsome_recipe_cookbook/blob/linting/.github/workflows/linting.yml). Today we try to automatically lint or code before it is commited. This we do by using Git Hooks.
 
+For Javascript a Linter is `standard`. The rules that the linter follows is described here: 
+* [JavaScript Standard Style](https://github.com/standard/standard/blob/master/RULES.md)
 
 ## After Class
