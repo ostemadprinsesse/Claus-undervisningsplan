@@ -30,6 +30,11 @@ Last time we looked at adding linters to our [workflow on GitHub](https://github
 * [Precommit](tutorial_precommit.md)
 * [PyTest Precommits](tutorial_pytest_precommit.md)
 
+The code from today can be found here:
+
+* [Awesome Recipe Cookbook - precommit branch](https://github.com/cookbookio/awsome_recipe_cookbook/tree/precommit)
+
+
 For the one of you using Javascript you can have a look at these tools: 
 * [Javascript - Husky, LintStaged](husky_lint_staged.md)
 
