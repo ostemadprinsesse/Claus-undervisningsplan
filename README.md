@@ -19,6 +19,7 @@
 |   12    |6/3       | [Presentation](11._presentation_of_project/README.md)                |
 |   13    |10/3      | [CI code quality linting static code analysis](12._CI_code_quality_linting_static_code_analysis/README.md)     |
 |   14    |13/3      | [CI - Code Quality - Git Hooks, Linting, Testing](13._CI-Code_Quality-Git_Hooks_Linting_Testing/README.md)     |
+|   15    |16/3      | CASE 1: Vibe-Hackaton |
 |   16    |20/3      | CASE 1: Vibe-Hackaton |
 |   17    |24/3      | CASE 1: Vibe-Hackaton    |
 |   18    |27/3      | CASE 1: Vibe-Hackaton    |
