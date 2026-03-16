@@ -22,7 +22,7 @@
 |   15    |16/3      | CASE 1: Vibe-Hackaton |
 |   16    |20/3      | CASE 1: Vibe-Hackaton |
 |   17    |24/3      | CASE 1: Vibe-Hackaton    |
-|   18    |27/3      | CASE 1: Vibe-Hackaton    |
+|   18    |26/3      | CASE 1: Vibe-Hackaton    |
 |         |          | Holiday |
 |   19    |7/4       |      |
 |   20    |10/4      |      |
