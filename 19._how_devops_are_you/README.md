@@ -11,6 +11,8 @@ Today you should analyse your Hackaton project based on the theory from the "The
 
 ## Todays Teachings
 We start by having a sumarization of the main points in the book. 
+
+* [Slides](devops_slides.md)
 Then you do this exercise in your groups, and you end up by presenting your finds. 
 
 * [How DevOps are you?](how_are_you_devops.md)
