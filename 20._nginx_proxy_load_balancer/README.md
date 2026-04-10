@@ -18,9 +18,11 @@ No preperation before class today.
 
 ## After Class
 
-The following tutorials are **optional**. Some of them are refresher tutorials. Some of them can be used as inspiration. 
  
 * [Docker Compose refresher](02._docker-compose.md)
+
+<!--
 * [Orchestration](04._orchestration.md)
 * [Deployment strategies](03._deployment_strategies.md)
 * [continuous deployment](continuous_deployment.yml)
+-->
