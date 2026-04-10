@@ -25,7 +25,7 @@
 |   18    |26/3      | CASE 1: Vibe-Hackaton    |
 |         |          | Holiday |
 |   19    |7/4       | [How DevOps are you?](19._how_devops_are_you/README.md)     |
-|   20    |10/4      |      |
+|   20    |10/4      | [Nginx Proxy](20._nginx_proxy_load_balancer/README.md)     |
 |   21    |14/4      |      |
 |   22    |17/4      |      |
 |   23    |21/4      |      |
