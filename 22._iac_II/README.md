@@ -4,7 +4,7 @@ Today we continue dealing with the same topic as last time. The outcome should b
 ## Learning Goals
 
 * Setup a version-controlled infrastructure, for faster path to recovery.
-* Use the third DevOps principle of Continual Learning & Experimentation to ensure that the whole group is up to date with knowledge and the skills needed.
+* Use the third DevOps principle of **Continual Learning & Experimentation** to ensure that the whole group is up to date with knowledge and the skills needed.
  
 ## Before Class
 
