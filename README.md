@@ -27,7 +27,7 @@
 |   19    |7/4       | [How DevOps are you?](19._how_devops_are_you/README.md)     |
 |   20    |10/4      | [Nginx Proxy](20._nginx_proxy_load_balancer/README.md)     |
 |   21    |14/4      | [IaC - Infrastructure as code](21._iac/README.md)     |
-|   22    |17/4      |      |
+|   22    |17/4      | [IaC - Infrastructure as code II](22._iac_II/README.md)         |
 |   23    |21/4      |      |
 |   24    |24/4      |      |
 |   25    |28/4      |      |
