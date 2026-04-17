@@ -1,0 +1,10 @@
+{
+  "publishes": {
+    "calm-quill-zjee": {
+      "siteUrl": "https://calm-quill-zjee.here.now/",
+      "claimToken": "936fee4209b05a637b06f9f77df439e521c45c7036e7cfc8abe3f5849539e616",
+      "claimUrl": "https://here.now/claim?slug=calm-quill-zjee&token=936fee4209b05a637b06f9f77df439e521c45c7036e7cfc8abe3f5849539e616",
+      "expiresAt": "2026-04-17T19:06:57.789Z"
+    }
+  }
+}

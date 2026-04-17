@@ -28,12 +28,12 @@
 |   20    |10/4      | [Nginx Proxy](20._nginx_proxy_load_balancer/README.md)     |
 |   21    |14/4      | [IaC - Infrastructure as code](21._iac/README.md)     |
 |   22    |17/4      | [IaC - Infrastructure as code II](22._iac_II/README.md)         |
-|   23    |21/4      |      |
-|   24    |24/4      |      |
-|   25    |28/4      |      |
-|   26    |1/5       |      |
-|   27    |5/5       |      |
-|   28    |8/5       |  CASE 2   |
+|   23    |21/4      | **Ingen undervisning i dag** |
+|   24    |24/4      | Monitoring, Logging      |
+|   25    |28/4      | Monitoring Logging II    |
+|   26    |1/5       | System Architechture     |
+|   27    |5/5       | Summary of the semester     |
+|   28    |8/5       | CASE 2   |
 |   29    |12/5      | CASE 2     |
 |       |            | Holiday      |
 |   30    |19/5      | Exam Project Start up    |
