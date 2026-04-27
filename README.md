@@ -30,7 +30,7 @@
 |   22    |17/4      | [IaC - Infrastructure as code II](22._iac_II/README.md)         |
 |   23    |21/4      | **Ingen undervisning i dag** |
 |   24    |24/4      | **Ingen undervisning i dag** |
-|   25    |28/4      | [Monitoring Logging](23._monitoring_logging/README.md) |
+|   25    |28/4      | [Monitoring Logging](23._monitor_logging/README.md) |
 |   26    |1/5       | [Deployment strategies](24._deployment_stretegies/README.md)  |
 |   27    |5/5       | [Summary of the semester]()     |
 |   28    |8/5       | NTG Case |
