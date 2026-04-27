@@ -37,7 +37,7 @@ The CookBook example dealing with **Monitoring** can be found here:
 
 ```
 {
-            "name": "Awesome Repipee Cookbook",
+            "name": "Awesome Repipe Cookbook",
             "gitLinks": ["https://github.com/cookbookio/awsome_recipe_cookbook/tree/monitoring"],
             "backend": "http://4.235.98.142/api/",
             "frontend": "http://4.235.98.142",
@@ -49,5 +49,5 @@ The CookBook example dealing with **Monitoring** can be found here:
 ```
 ## After Class
 
-* [What is: Grafana & Prometheu](04._grafana_prometheus.md)
+* [What is: Grafana & Prometheus](04._grafana_prometheus.md)
 
