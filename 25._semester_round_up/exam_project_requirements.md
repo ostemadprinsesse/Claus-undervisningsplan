@@ -32,7 +32,7 @@ It is up to each individual to formulate what being DevOps means to them. I hope
 
 ## Be DevOps
 
-In a way the course runs on two planes. The technological track [Technology](#technology) and the DevOps track [DevOps](#devops). The first track is easy to give tangible assignments for. The second track is something each group must constantly be aware of and intrinsically assignem themselves to work on.
+In a way the course runs on two planes. The technological track [Technology](#technology) and the DevOps track [DevOps](#devops). The first track is easy to give tangible assignments for. The second track is something each group must constantly be aware of and intrinsically assign themselves to work on.
 
 ---
 
